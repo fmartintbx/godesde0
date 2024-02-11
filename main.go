@@ -1,8 +1,8 @@
 package main
 
 import (
-	
-	"github.com/fmartintbx/godesde0/teclado"
+	 
+	 "github.com/fmartintbx/godesde0/iteraciones"
 )
 func main(){ 
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -23,7 +23,10 @@ func main(){
 	} 
     numero, texto := ejercicios.ConvNum("500")
 	fmt.Println(numero)
-	fmt.Println(texto) */
+	fmt.Println(texto) 
 
-	teclado.IngresoNumeros()
+	teclado.IngresoNumeros() */
+    
+	iteraciones.Iterar()
+	
 }
