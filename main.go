@@ -2,7 +2,7 @@ package main
 
 import (
 	 
-	 "github.com/fmartintbx/godesde0/ejercicios"
+	 "github.com/fmartintbx/godesde0/files"
 )
 func main(){ 
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -28,6 +28,7 @@ func main(){
 	teclado.IngresoNumeros()
     
 	iteraciones.Iterar() */
-	ejercicios.TabladeMultiplicar()
+	//fmt.Println(ejercicios.TabladeMultiplicar())
+	files.GrabaTabla()
 	
 }
