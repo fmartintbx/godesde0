@@ -29,6 +29,7 @@ func main(){
     
 	iteraciones.Iterar() */
 	//fmt.Println(ejercicios.TabladeMultiplicar())
-	files.GrabaTabla()
-	
+	//files.GrabaTabla()
+	//fifiles
+	files.LeoArchivo()
 }
