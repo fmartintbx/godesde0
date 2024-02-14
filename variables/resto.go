@@ -7,26 +7,26 @@ import (
 
 )
 
-var Nombre string
-var Estado bool
-var Sueldo float32
-var Fecha  time.Time
+var Name string
+var State bool
+var Salary float32
+var Date  time.Time
 
 func RestoVariables(){ 
 
-	Nombre = "Facundo"
-	Estado = true
-	Sueldo = 1577.66
-	Fecha = time.Now()
-	fmt.Println(Nombre)
-	fmt.Println(Estado)
-	fmt.Println(Sueldo)
-	fmt.Println(Fecha)
+	Name = "Facundo"
+	State = true
+	Salary = 1577.66
+	Date = time.Now()
+	fmt.Println(Name)
+	fmt.Println(State)
+	fmt.Println(Salary)
+	fmt.Println(Date)
 
 }
-func ConviertoaTexto(numero int) (bool, string){ 
-	texto := strconv.Itoa((numero))
-	return true, texto
+func ConvertoText(number int) (bool, string){ 
+	text := strconv.Itoa((number))
+	return true, text
 
 
 }
