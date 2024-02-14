@@ -2,7 +2,7 @@ package main
 
 import (
 	 
-	 "github.com/fmartintbx/godesde0/funciones"
+	 "github.com/fmartintbx/godesde0/arreglos_slices"
 )
 func main(){ 
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -34,5 +34,8 @@ func main(){
 	//files.LeoArchivo()
 	//funciones.Calculos()
 	//funciones.LlamarClosure()
-	funciones.Exponencial(2)
+	//funciones.Exponencial(2)
+	//arreglos_slices.MuestroArreglos()
+	//arreglos_slices.MuestroSlice()
+	arreglos_slices.Capacidad()
 }
