@@ -2,7 +2,7 @@ package main
 
 import (
 	 
-	 "github.com/fmartintbx/godesde0/arreglos_slices"
+	 "github.com/fmartintbx/godesde0/mapas"
 )
 func main(){ 
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -37,5 +37,6 @@ func main(){
 	//funciones.Exponencial(2)
 	//arreglos_slices.MuestroArreglos()
 	//arreglos_slices.MuestroSlice()
-	arreglos_slices.Capacidad()
+	//arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 }
