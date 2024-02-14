@@ -33,5 +33,6 @@ func main(){
 	//fifiles
 	//files.LeoArchivo()
 	//funciones.Calculos()
-	funciones.LlamarClosure()
+	//funciones.LlamarClosure()
+	funciones.Exponencial(2)
 }
