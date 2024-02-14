@@ -2,7 +2,7 @@ package main
 
 import (
 	 
-	 "github.com/fmartintbx/godesde0/files"
+	 "github.com/fmartintbx/godesde0/funciones"
 )
 func main(){ 
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -31,5 +31,7 @@ func main(){
 	//fmt.Println(ejercicios.TabladeMultiplicar())
 	//files.GrabaTabla()
 	//fifiles
-	files.LeoArchivo()
+	//files.LeoArchivo()
+	//funciones.Calculos()
+	funciones.LlamarClosure()
 }
